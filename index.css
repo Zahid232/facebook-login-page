@@ -131,12 +131,10 @@ p{
 
     .login{
         width: 70%;
-        border: 1px solid black;
     }
 
     .intro{
         width: 30%;
-        border: 1px solid black;
     }
     .intro h6{
         font-size: 8px;
