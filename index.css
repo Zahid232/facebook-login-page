@@ -64,6 +64,29 @@ section{
     font-weight: 300;
 }
 
+.password{
+    display: flex;
+    flex-direction: row;
+    width: 77%;
+    height: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+#myInput{
+    width: 100%;
+    /* padding: 0.8rem; */
+    height: 1rem;
+    
+}
+
+#togglePassword{
+    padding: 0;
+    margin-left: -25px;
+    display: block;
+    background: whitesmoke;
+    margin-top: .5rem;
+}
+
 button{
     width: fit-content;
     padding: 4px 8px;
@@ -74,7 +97,9 @@ button{
     color: whitesmoke;
     font-weight: 600;
     margin-top: .9rem;
+    transition: all .45s ease;
 }
+
 
 
 span{
@@ -120,6 +145,10 @@ p{
     padding: 12px 9px;
 }
 
+button:hover{
+    transform: scale(0.9);
+}
+
 @media only screen and (max-width:600px){
     *{
         font-size: 10px;
@@ -147,4 +176,12 @@ p{
     span{
         font-size: 12px;
     }
+
+    .password{
+        width: 70%;
+        margin-right: 18px;
+    }
+    /* #togglePassword{
+        margin-left: -15px;
+    } */
 }

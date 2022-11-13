@@ -3,6 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
         <title>Login Page</title>
     </head>
     <body>
@@ -14,7 +15,10 @@
             <div class="login">
                 <div class="login-a">
                     <input type="text" placeholder="Email address or phone number" required>
-                    <input type="password" placeholder="Password" required>
+                    <div class="password">
+                        <input type="password" placeholder="Password" required id="myInput" >
+                        <i class="far fa-eye" id="togglePassword" onclick="fuun()"></i>
+                    </div>
                     <button class="submit-btn" type="submit">Log In</button>
                     <a href="#">Forgotten Password?</a>
                     <p></p>
@@ -25,5 +29,6 @@
                 </div>
             </div>
         </section>
+        <script src="index.js"></script>
     </body>
 </html>
